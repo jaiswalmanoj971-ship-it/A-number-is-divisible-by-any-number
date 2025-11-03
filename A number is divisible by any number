@@ -3,13 +3,14 @@
  int main(){ 
 // count how many number 1-100 are divisible by 5
     int divisibled = 0;
-    for(int i = 1; i <= 100; i++) {
-        if(i % 5 == 0) {
+    for(int i = 1; i <= 100; i++) {       
+        if(i % 5 == 0) {        // (i% any number ==0) write any number which you wants to divide by//
             divisibled++;
         }
     }
     printf("the number divisible by 5 in 1 to 100  are : %d\n", divisibled);
     return 0;
+
 
 
 
